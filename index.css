@@ -52,12 +52,15 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.5)),url(hotel-in-mountain-1.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.5)),url(nature-8gp.png);
   background-position: center;
   background-size: cover;
 }
 .body h1 {
   color: aliceblue;
+}
+section {
+  margin: auto;
 }
 footer {
   background: #333;
