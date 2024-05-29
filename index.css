@@ -1,3 +1,6 @@
+*{
+  text-decoration: none;
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -10,17 +13,33 @@ header {
   padding: 1em;
   text-align: center;
 }
-nav {
+.navbar{
   background: #333;
-  color: white;
-  padding: 0.5em;
-  text-align: center;
 }
-nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.logo a{
+  font-size: 37px;
+  font-weight: 600;
+  color: white;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  color: white;
+  font: 16px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+li:hover{
+  background-color: #4caf50;
+}
+
 main {
   padding: 1em;
   margin: 0 auto;
